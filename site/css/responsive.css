@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+
+header, nav, #pickup_area, #contents, footer #pagetop {
+	width: 100%;
+}
+header h1 img{
+	width: 100%;
+	max-width: 241px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+#pickup_area {
+	padding-top: 10px;
+}
+#pickup_area ul li img {
+	width: 100%;
+}
+#main {
+	width: auto;
+	float: none;
+}
+nav ul li#nav_info,
+nav ul li#nav_reserve,
+nav ul li#nav_lineup,
+nav ul li#nav_mailmagazine {
+	width: 100%;
+	margin: 0;
+}
+nav ul li#nav_info a,
+nav ul li#nav_reserve a,
+nav ul li#nav_lineup a,
+nav ul li#nav_mailmagazine a {
+	display: block;
+	height: auto;
+	margin-bottom: 1px;
+	padding: 15px 0 15px 0;
+	background-image: none;
+	background-color: #d35a49;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+}
+nav ul li#nav_info a:hover,
+nav ul li#nav_reserve a:hover,
+nav ul li#nav_lineup a:hover,
+nav ul li#nav_mailmagazine a:hover {
+	background-color: #7b291e;
+}
+#news ul li {
+	padding: 10px 0 10px 0;
+	text-indent: 0;
+}
+#news ul li time {
+	display: block;
+	width: auto;
+	margin-bottom: 5px;
+}
+#sub {
+	width: 100%;
+	max-width: 230px;
+	margin-top: 50px;
+	float: none;
+}
+#sub img {
+	width: 100%;
+	max-width: 230px;
+}
